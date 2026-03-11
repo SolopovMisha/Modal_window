@@ -17,8 +17,6 @@ function closeModal() {
     modal.classList.remove('active');
     submitBtn.disabled = true;
 
-    let name = nameInput.value;
-    let surname = surnameInput.value;
     nameInput.value = '';
     surnameInput.value = '';
 }
